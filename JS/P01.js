@@ -1,3 +1,3 @@
-console.log(P01);
-console.log("Hei maailma");
-console.log(-----------------------);
+console.log("P01");
+console.log("Hei Maailma");
+console.log("-----------------------");

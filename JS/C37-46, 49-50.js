@@ -22,3 +22,6 @@ let user = {
 };
 
 console.log(user.address.zip);
+
+let jsonString = JSON.stringify(person);
+let parsed = JSON.parse(jsonString);

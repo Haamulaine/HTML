@@ -12,7 +12,7 @@ luvut.sort(function(a, b) {
 
 //Tulostus
 alert(
-    "Annetut luvut: " + [luku1, luku2, luku3].join(", ") + "Luvut järjestyksessä: " + luvut.join(", ")
+    "Annetut luvut: " + [luku1, luku2, luku3].join(", ") + "\nLuvut järjestyksessä: " + luvut.join(", ")
 );
 
 console.log("Annetut luvut:", luku1, luku2, luku3);

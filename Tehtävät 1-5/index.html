@@ -8,16 +8,53 @@
 
 </head>
 <body>
-<h1>Järjestä kolme numeroa</h1>
+<h1>Harjoitukset</h1>
 
-<input type="text" id="luku1" placeholder="Anna 1. luku">
-<input type="text" id="luku2" placeholder="Anna 2. luku">
-<input type="text" id="luku3" placeholder="Anna 3. luku">
+<section>
+<div class="container" id="first-container">
+    <h2>Järjestä kolme numeroa</h2>
+
+<label>Anna 1. luku: <input type="text" id="luku1"></label><br>
+<label>Anna 2. luku: <input type="text" id="luku2"></label><br>
+<label>Anna 3. luku: <input type="text" id="luku3"></label><br>
  
 <button onclick="jarjesta()">Järjestä</button>
 
 <p id="tulos"></p>
-
+</div>
 <script src="jarjestys.js"></script>
+</section>
+
+<section>
+<div class="container" id="second-container">
+<h2>Etsi suurin numero</h2>
+
+<label>Anna 1. luku: <input type="text" id="luku4"></label><br>
+<label>Anna 2. luku: <input type="text" id="luku5"></label><br>
+<label>Anna 3. luku: <input type="text" id="luku6"></label><br>
+<label>Anna 4. luku: <input type="text" id="luku7"></label><br>
+<label>Anna 5. luku: <input type="text" id="luku8"></label><br>
+
+<button onclick="etsiSuurin()">Etsi suurin numero</button>
+
+<p id="tulos"><p>
+</div>
+
+<script src="suurin.js"></script>
+</section>
+
+<section>
+<div class="container" id="third-container">
+<h2>Parillinen vai pariton</h2>
+
+<label>Anna luku: <input type="text" id="lukuLaatikko"></label>
+<button onclick="tarkistaLuku()">Tarkista</button>
+
+<p id="tulos"></p>
+</div>
+
+<script src="parit.js"></script>
+</section>
+
 </body>
 </html>

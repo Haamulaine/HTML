@@ -4,75 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ehtolauseita</title>
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
 <h1>Harjoitukset</h1>
 
-<section>
-<div class="container">
-    <div class="box oranssi">
-    <h2>Järjestä kolme numeroa</h2>
 
-<label>Anna 1. luku: <input type="text" id="luku1"></label><br>
-<label>Anna 2. luku: <input type="text" id="luku2"></label><br>
-<label>Anna 3. luku: <input type="text" id="luku3"></label><br>
+     <div class="container">
+     <div class="box oranssi">
+         <h2>Tehtävä 1</h2>
+         <p>Tee ohjelma, joka pyytää käyttäjältä kolme numeroa ja laittaa ne järjestykseen</p>
+
+         <label>Anna 1. luku: <input type="text" id="luku1"></label><br>
+         <label>Anna 2. luku: <input type="text" id="luku2"></label><br>
+         <label>Anna 3. luku: <input type="text" id="luku3"></label><br>
  
-<button onclick="jarjesta()">Järjestä</button>
+         <button onclick="jarjesta()">Järjestä</button>
 
-<p id="tulos"></p>
-</div>
-<script src="jarjestys.js"></script>
-</section>
-
-<section>
-<div class="box pinkki">
-<h2>Etsi suurin numero</h2>
-
-<label>Anna 1. luku: <input type="text" id="luku4"></label><br>
-<label>Anna 2. luku: <input type="text" id="luku5"></label><br>
-<label>Anna 3. luku: <input type="text" id="luku6"></label><br>
-<label>Anna 4. luku: <input type="text" id="luku7"></label><br>
-<label>Anna 5. luku: <input type="text" id="luku8"></label><br>
-
-<button onclick="etsiSuurin()">Etsi suurin numero</button>
-
-<p id="tulos"><p>
+         <p id="tulos"></p>
+    <script src="jarjestys.js"></script>
 </div>
 
-<script src="suurin.js"></script>
-</section>
 
-<section>
-<div class="box keltainen">
-<h2>Parillinen vai pariton</h2>
 
-<label>Anna luku: <input type="text" id="lukuLaatikko"></label>
-<button onclick="tarkistaLuku()">Tarkista</button>
+     <div class="box pinkki">
+         <h2>Tehtävä 2</h2>
+         <p>Kirjoita ohjelma, joka ottaa vastaan viisi lukua ja etsii niistä suurimman</p>
 
-<p id="tulos"></p>
+         <label>Anna 1. luku: <input type="text" id="luku4"></label><br>
+         <label>Anna 2. luku: <input type="text" id="luku5"></label><br>
+         <label>Anna 3. luku: <input type="text" id="luku6"></label><br>
+         <label>Anna 4. luku: <input type="text" id="luku7"></label><br>
+         <label>Anna 5. luku: <input type="text" id="luku8"></label><br>
+
+        <button onclick="etsiSuurin()">Etsi suurin numero</button>
+
+         <p id="tulos"><p>
+    <script src="suurin.js"></script>
 </div>
 
-<script src="parit.js"></script>
-</section>
 
-<section>
-<div class="box vihreä"></div>
-<h2>Saako ajaa?</h2>
 
-<label>Anna käyttäjän ikä: <input type="text" id="ikaLuokka"></label>
-<button onclick="ikaLuokka()">Näytä ajoneuvo</button>
 
-<p id="tulos"></p>
-</div>
 
-<script src="ikäluokka.js"></script>
-</section>
+    <div class="box keltainen">
+         <h2>Tehtävä 3</h2>
+         <p>Kirjoita ohjelma, joka kertoo, onko antamasi luku parillinen vai pariton</p>
 
-<section>
+         <label>Anna luku: <input type="text" id="lukuLaatikko"></label>
+         <button onclick="tarkistaLuku()">Tarkista</button>
+
+         <p id="tulos"></p>
+    <script src="parit.js"></script>
+    </div>
+
+
+
+
+    <div class="box vihreä">
+         <h2>Tehtävä 4</h2>
+         <p>Kirjoita ohjelma, joka kysyy käyttäjän ikää ja tarkistaa, mitä ajoneuvoa henkilö saa ajaa</p>
+
+         <label>Anna käyttäjän ikä: <input type="text" id="ikaLuokka"></label>
+         <button onclick="ikaLuokka()">Näytä ajoneuvo</button>
+
+         <p id="tulos"></p>
+    
+    <script src="ikäluokka.js"></script>
+    </div>
+
+
+
+
+
     <div class="box sininen">
-        <h2>Käännä "Hei Maailma"</h2>
+        <h2>Tehtävä 5</h2>
+        <p>Kirjoita ohjelma, joka kääntää "Hei maailma" -tekstin valitulle kielelle</p>
 
         <label for="kieli">Valitse kieli</label><br>
         <select id="kieli">
@@ -86,7 +94,6 @@
 
     <script src="kaantaja.js"></script>
     </div>
-</section>
 </div>
 
 </body>

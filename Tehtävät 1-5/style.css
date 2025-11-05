@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: (3, 1fr);
+    grid-template-rows: 2;
+    gap: 20px;
+    margin-top: 20px;
+    grid-template-areas:
+    "t1 t2 t3"
+    "t4 t5 .";
+}
+
+.oranssi { grid-area: t1; background-color: orange; }
+.pinkki { grid-area: t2; background-color: pink; }
+.keltainen { grid-area: t3;  background-color: yellow; }
+.vihreä { grid-area: t4; background-color: green; }
+.sininen { grid-area: t5; background-color: blue; }
+
+.box {
+    border: 1px solid black;
+    padding: 15px;
+    min-height: 200px;
+}
+
+input, select {
+    margin: 5px 0;
+}
+
+button {
+    margin-top: 5px;
+    cursor: pointer;
+}

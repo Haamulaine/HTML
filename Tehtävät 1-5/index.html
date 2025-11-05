@@ -11,7 +11,8 @@
 <h1>Harjoitukset</h1>
 
 <section>
-<div class="container" id="first-container">
+<div class="container">
+    <div class="box oranssi">
     <h2>Järjestä kolme numeroa</h2>
 
 <label>Anna 1. luku: <input type="text" id="luku1"></label><br>
@@ -26,7 +27,7 @@
 </section>
 
 <section>
-<div class="container" id="second-container">
+<div class="box pinkki">
 <h2>Etsi suurin numero</h2>
 
 <label>Anna 1. luku: <input type="text" id="luku4"></label><br>
@@ -44,7 +45,7 @@
 </section>
 
 <section>
-<div class="container" id="third-container">
+<div class="box keltainen">
 <h2>Parillinen vai pariton</h2>
 
 <label>Anna luku: <input type="text" id="lukuLaatikko"></label>
@@ -55,6 +56,38 @@
 
 <script src="parit.js"></script>
 </section>
+
+<section>
+<div class="box vihreä"></div>
+<h2>Saako ajaa?</h2>
+
+<label>Anna käyttäjän ikä: <input type="text" id="ikaLuokka"></label>
+<button onclick="ikaLuokka()">Näytä ajoneuvo</button>
+
+<p id="tulos"></p>
+</div>
+
+<script src="ikäluokka.js"></script>
+</section>
+
+<section>
+    <div class="box sininen">
+        <h2>Käännä "Hei Maailma"</h2>
+
+        <label for="kieli">Valitse kieli</label><br>
+        <select id="kieli">
+            <option value="englanti">Englanti</option>
+            <option value="ruotsi">Ruotsi</option>
+            <option value="espanja">Espanja</option>
+        </select>
+        <button onclick="kaanna()">Käännä</button>
+
+        <p id="tulos"></p>
+
+    <script src="kaantaja.js"></script>
+    </div>
+</section>
+</div>
 
 </body>
 </html>

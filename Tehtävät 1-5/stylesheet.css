@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.container {
+    display: inline-grid;
+    align-content: ;
+}
+
+.oranssi { grid-area: t1; }
+.pinkki { grid-area: t2; }
+.keltainen { grid-area: t3; }
+.vihreä { grid-area: t4; }
+.sininen { grid-area: t5; }
+
+.box {
+    border: 1px solid black;
+    padding: 15px;
+    min-height: 200px;
+}
+
+.oranssi { background-color: orange; }
+.pinkki { background-color: pink; }
+.keltainen { background-color: yellow; }
+.vihreä { background-color: green; }
+.sininen { background-color: blue; }
+
+input, select {
+    margin: 5px 0;
+}
+
+button {
+    margin-top: 5px;
+    cursor: pointer;
+}

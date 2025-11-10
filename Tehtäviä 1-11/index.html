@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tehtäviä 1-11</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Tehtäviä 1-11</h1>
+
+<div class="container">
+<div class="box Oranssi">
+    <h2>Tehtävä 1</h2>
+    <p>Tee ohjelma, joka pyytää käyttäjältä parillista lukua ja tulostaa tämän jälkeen kaikki luvut siihen asti pois lukien 0:n</p>
+    <label>Anna parillinen luku: <input type="text" id="luku" min="2" step="2"></label>
+
+    <button onclick="tulostaParilliset()">Tulosta parilliset</button>
+
+    <p id="tulos"></p>
+<script src="parilliset.js"></script>
+</div>
+
+<div class="box Vaaleanpunainen">
+    <h2>Tehtävä 2</h2>
+    <p>Kirjoita ohjelma, joka muuntaa käyttäjän antaman sanan salasanaksi siten, että laittaa joka toiseksi kirjaimeksi ison Ö-kirjaimen</p>
+    <label>Anna sana: <input type="text" id="sana"></label>
+
+    <button onclick="muutaSalasanaksi()">Muuta salasanaksi</button>
+
+    <p id="tulos"></p>
+<script src="salasana.js"></script>
+</div>
+
+<div class="box Keltainen">
+    <h2>Tehtävä 3</h2>
+    <p>Kirjoita ohjelma, joka tarkastaa, onko antamassasi sanassa ö-kirjainta ja kirjoittaa vastaukseksi joko: On tai Ei ole</p>
+    <label>Anna sana: <input type="text" id="sanaO"></label>
+
+    <button onclick="tarkistaO()">Onko ö-kirjainta</button>
+
+    <p id="tulos"></p>
+<script src="onko.js"></script>
+</div>
+
+<div class="box Vihreä">
+    <h2>Tehtävä 4</h2>
+    <p>Kirjoita ohjelma, joka laskee annetun luvun kertoman(esim: 4-> 4*3*2*1 = 24)</p>
+    <label>Anna luku, josta haluat kertoman: <input type="text" id="kertoma"></label>
+
+    <button onclick="kertoma()">Laske kertoma</button>
+
+    <p id ="tulos"></p>
+<script src="kertoma.js"></script>
+</div>
+
+<div class="box Vaaleansininen">
+    <h2>Tehtävä 5</h2>
+    <p>Kirjoita ohjelma, joka tulostaa näytölle luvut 1-100, kuitenkin siten, että jos luku on 3:lla jaollinen,
+    <br>tulostetaan hip ja viidellä jaollinen tulostetan heijaa ja jos sekä viidellä että kolmella jaollinen,
+    <br>tulostetan hiphejaa</p>
+    
+    <button onclick="tulosta()">Tulosta</button>
+
+    <p id="tulos"></p>
+<script src="hipheijaa.js"></script>
+</div>
+</div>
+</body>
+</html>

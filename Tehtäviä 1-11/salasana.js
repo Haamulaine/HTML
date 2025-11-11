@@ -9,15 +9,9 @@ function muutaSalasanaksi() {
 
     let uusiSana = "";
 
-    const aakkoset = "ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖ"
-
     for (let i = 0; i < sana.length; i++) {
-        const Satunnaiskirjain = aakkoset.charAt(
-            Math.floor(Math.random() * aakkoset.length)
-        );
-
-        salasana += sana[i] + Satunnaiskirjain;
+        uusiSana += sana[i] + "Ö";
     }
 
-    document.getElementById("tulos").innerHTML = `Salasana on: <b>${uusiSana}</b>`;
+    tulosDiv.innerHTML = `Salasana: ${uusiSana}`;
 }

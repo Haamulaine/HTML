@@ -24,10 +24,41 @@
         
         <label>Anna sana, jonka pisteet lasketaan: <input type="text" id="sana"></label>
 
-        <button onclick="tarkastaPisteet()"></button>
+        <button onclick="tarkastaPisteet()">Laske kirjain pisteet</button>
 
         <p id="tulos"></p>
     <script src="scrabble.js"></script>
+    </div>
+
+    <div class="box Vaaleanpunainen">
+        <h2>Tehtävä 2</h2>
+        <p>Tee ohjelma, joka arpoo lottonumerot (7kpl)</p>
+
+        <button onclick="lottoNumerot()">Arvo numerot</button>
+
+        <p id="tulos"></p>
+    <script src="lotto.js"></script>
+    </div>
+
+    <div class="box Pinkki">
+        <h2>Tehtävä 3</h2>
+        <p>Tee ohjelma, joka muuntaa määritetyn (javascriptissä) 2-ulotteisen taulukon taulukkomuotoon
+        <br>Esimerkiksi [[1, 2, 1, 24], [8, 11, 9, 4], [7, 0, 7, 27], [7, 4, 28, 14], [3, 10, 26, 7]]</p>
+
+        <button onclick="muunnaTaulukko()">Muunna taulukoksi</button>
+
+        <p id="tulos"></p>
+    <script src="muunnataulukko.js"></script>
+    </div>
+
+    <div class="box Keltainen">
+        <h2>Tehtävä 4</h2>
+        <p>Tee ohjelma, joka tekee taulukon kaikista korttipakan korteista (2 sisäkkäistä silmukkaa)
+        <br>ja sen jälkeen sekoittaa "pakan" ja arpoo 5 korttia sieltä</p>
+
+        <button onclick="arvoKortit()"></button>
+        <p id="tulos"></p>
+    <script src="korttipakka.js"></script>
     </div>
 
 </div>

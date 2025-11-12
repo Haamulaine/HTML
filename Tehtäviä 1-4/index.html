@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tehtäviä 1-4</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="task-container">
+    <div class="box Oranssi">
+        <h2>Tehtävä 1</h2>
+        <p>Tee ohjelma, jolle voi syöttää scrabble-pelin sanan ja ohjelma laskee kirjain pisteet seuraavasti</p>
+
+        <ul><li>A, E, I, N, S, T = 1p</li></ul>
+        <ul><li>O, Ä, K, L = 2p</li></ul>
+        <ul><li>U, M = 3p</li></ul>
+        <ul><li>Y, H, J, P, R, V = 4p</li></ul>
+        <ul><li>Ö, D = 7p</li></ul>
+        <ul><li>B, F, G = 8p</li></ul>
+        <ul><li>C = 10</li></ul>
+        <ul><li>Loput krjaimet = 12p</li></ul>
+        
+        <label>Anna sana, jonka pisteet lasketaan: <input type="text" id="sana"></label>
+
+        <button onclick="tarkastaPisteet()"></button>
+
+        <p id="tulos"></p>
+    <script src="scrabble.js"></script>
+    </div>
+
+</div>
+    
+</body>
+</html>

@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-body {
+.body {
     font-family: Arial, sans-serif;
     background: white;
     padding: 20px;
@@ -32,35 +32,55 @@ body {
 .Oranssi {
     background-color: orange;
     color: black;
+    border-style: solid;
 }
 .Vaaleanpunainen {
     background-color: #ffcccc;
+    color: black;
+    border-style: solid;
 }
 .Keltainen {
     background-color: #ffff99;
+    color: black;
+    border-style: solid;
 }
 .Vihreä {
     background-color: #b3ffb3;
+    color: black;
+    border-style: solid;
 }
 .Vaaleansininen {
     background-color: #add8ff;
+    color: black;
+    border-style: solid;
 }
 .Turkoosi {
     background-color: #aaf0f0;
+    color: black;
+    border-style: solid;
 }
 .Pinkki {
     background-color: #ffb6b6;
+    color: black;
+    border-style: solid;
 }
 .Purppura {
     background-color: #c7b3f5;
     color: black;
+    border-style: solid;
 }
 .Sininen {
     background-color: #add8ff;
+    color: black;
+    border-style: solid;
 }
 .Beige {
     background-color: #fff2cc;
+    color: black;
+    border-style: solid;
 }
 .Tummansininen {
     background-color: #3b94c4;
+    color: black;
+    border-style: solid;
 }

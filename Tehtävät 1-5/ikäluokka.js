@@ -1,6 +1,6 @@
 function ikaLuokka() {
     const ika = Number(document.getElementById("ikaLuokka").value);
-    const tulos = document.getElementById("tulos");
+    const tulos = document.getElementById("tulos4");
 
     if (isNaN(ika) || ika < 0) {
         tulos.textContent = "Anna kelvollinen ikä.";

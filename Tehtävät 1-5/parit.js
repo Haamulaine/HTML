@@ -1,7 +1,7 @@
 function tarkistaLuku() {
     const input = document.getElementById('lukuLaatikko').value;
     const numero = Number(input);
-    const tulosDiv = document.getElementById('tulos');
+    const tulosDiv = document.getElementById('tulos3');
 
     if (isNaN(numero)) {
         tulosDiv.textContent = "Anna kelvollinen numero!";

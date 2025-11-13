@@ -1,6 +1,6 @@
 function kaanna() {
     const kieli = document.getElementById("kieli").value;
-    const tulos = document.getElementById("tulos");
+    const tulos = document.getElementById("tulos5");
     let kaannos = "";
 
     if (kieli === "englanti") {

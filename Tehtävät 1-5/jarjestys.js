@@ -15,5 +15,5 @@ function jarjesta() {
     luvut.sort((a, b) => a - b);
 
     
-    document.getElementById('tulos').textContent = "Järjestys: " + luvut.join(", ");
+    document.getElementById('tulos1').textContent = "Järjestys: " + luvut.join(", ");
 }

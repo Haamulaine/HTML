@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ota yhteyttä</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form id="lomake">
+    <h1>Ota Yhteyttä!</h1>
+    <label for="etunimi">Anna etunimi:</label>
+    <input type="text" id="etunimi" name="etunimi"><br>
+
+    <label for="sukunimi">Anna sukunimi:</label>
+    <input type="text" id="sukunimi" name="sukunimi"><br>
+
+    <label for="email">Anna sähköpostisi:</label>
+    <input type="text" id="email" name="email">
+
+    <label for="palaute">Palautteesi:</label>
+    <input type="text" name="palaute"></textarea><br><br>
+
+    <p>Valitse:</p>
+    <input type="radio" id="kylla" name="mainos" value="kylla">
+    <label for="kylla">Haluan saada mainospostia</label><br>
+    <input type="radio" id="ei" name="mainos" value="ei">
+    <label for="ei">En halua mainospostia.</label><br><br>
+
+    <p>Mistä pidät koulussa eniten?</p>
+    <input type="checkbox" id="ruoka" name="mieluisin" value="Ruoka">
+    <label for="ruoka">Ruoasta</label><br>
+    <input type="checkbox" id="ammatti" name="mieluisin" value="Ammattiaineista">
+    <label for="ammatti">Ammattiaineista</label><br>
+    <input type="checkbox" id="yto" name="mieluisin" value="YTo-aineista">
+    <label for="yto">YTO-aineista</label><br>
+    <input type="checkbox" id="vapaa" name="mieluisin" value="Vapaa-ajasta">
+    <label for="vapaa">Vapaa-ajasta</label><br>
+
+    <div class="buttons">
+        <button type="button" onclick="tarkasta()">Tarkasta lomake</button>
+        <button type="reset">Tyhjennä lomake</button>
+
+<script src="lomake.js"></script>
+    </div>
+</form>
+    
+</body>
+</html>

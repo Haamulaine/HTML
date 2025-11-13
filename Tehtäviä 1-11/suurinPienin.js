@@ -8,12 +8,12 @@ function etsi() {
     ];
 
     if (luvut.some(isNaN)) {
-        document.getElementById("tulos").innerHTML = "Anna kaikki viisi lukua!";
+        document.getElementById("tulos9").innerHTML = "Anna kaikki viisi lukua!";
         return;
     }
 
     const suurin = Math.max(...luvut);
     const pienin = Math.min(...luvut);
 
-    document.getElementById("tulos").innerHTML = `Suurin luku on: <b>${suurin}</b><br>Pienin luku on: <b>${pienin}</b>`;
+    document.getElementById("tulos9").innerHTML = `Suurin luku on: <b>${suurin}</b><br>Pienin luku on: <b>${pienin}</b>`;
 }

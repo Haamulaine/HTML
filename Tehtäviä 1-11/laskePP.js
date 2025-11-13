@@ -3,12 +3,12 @@ function laskePP() {
     const loppu = parseInt(document.getElementById("number2").value, 10);
 
     if (isNaN(alku) || isNaN(loppu)) {
-        document.getElementById("tulos").innerHTML = "Anna molemmat luvut!";
+        document.getElementById("tulos11").innerHTML = "Anna molemmat luvut!";
         return;
     }
 
     if (loppu <= alku) {
-        document.getElementById("tulos").innerHTML = "Toisen luvun pitää olla suurempi!";
+        document.getElementById("tulos11").innerHTML = "Toisen luvun pitää olla suurempi!";
         return;
     }
 

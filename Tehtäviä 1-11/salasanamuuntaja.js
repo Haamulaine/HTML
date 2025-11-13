@@ -2,7 +2,7 @@ function muunna() {
     const sana = document.getElementById("salasana").value.trim();
 
     if (sana === "") {
-        document.getElementById("tulos").innerHTML = "Anna sana!";
+        document.getElementById("tulos10").innerHTML = "Anna sana!";
     }
 
     let salasana = "";
@@ -18,5 +18,5 @@ function muunna() {
         salasana += sana[i] + satunnaisKirjain;
     }
 
-    document.getElementById("tulos").innerHTML = `Salasana on: ${salasana}`;
+    document.getElementById("tulos10").innerHTML = `Salasana on: ${salasana}`;
 }

@@ -1,6 +1,6 @@
 function kertoma() {
    const n = Number(document.getElementById("kertoma").value);
-   const tulosDiv = document.getElementById("tulos");
+   const tulosDiv = document.getElementById("tulos4");
 
    if (isNaN(n) || n < 0) {
     tulosDiv.innerHTML = "Syötä käyvä luku!";

@@ -1,5 +1,5 @@
 function tulosta() {
-    const tulosDiv = document.getElementById("tulos");
+    const tulosDiv = document.getElementById("tulos5");
     tulosDiv.innerHTML = "";
 
     for (let i = 1; i <= 100; i++) {

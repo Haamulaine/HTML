@@ -1,7 +1,7 @@
 function tulostaParilliset() {
     const syote = document.getElementById("luku").value;
     const luku = parseInt(syote);
-    const tulosDiv = document.getElementById("tulos");
+    const tulosDiv = document.getElementById("tulos1");
     tulosDiv.innerHTML = "";
 
     if (isNaN(luku) || luku <= 0 || luku % 2 !== 0) {

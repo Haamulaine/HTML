@@ -3,11 +3,11 @@ function laskePotenssi() {
     const luku2 = Number(document.getElementById("nro2").value);
 
     if (isNaN(luku1) || isNaN(luku2)) {
-        document.getElementById("tulos").innerHTML = "Anna molemmat luvut!";
+        document.getElementById("tulos8").innerHTML = "Anna molemmat luvut!";
         return;
     }
     
     const tulos = luku1 ** luku2;
 
-    document.getElementById("tulos").innerHTML = `${luku1}<sup>${luku2}</sup> = ${tulos}`;
+    document.getElementById("tulos8").innerHTML = `${luku1}<sup>${luku2}</sup> = ${tulos}`;
 }

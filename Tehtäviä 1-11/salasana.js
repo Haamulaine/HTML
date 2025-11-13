@@ -1,6 +1,6 @@
 function muutaSalasanaksi() {
     const sana = document.getElementById("sana").value.trim();
-    const tulosDiv = document.getElementById("tulos");
+    const tulosDiv = document.getElementById("tulos2");
 
     if (sana === "") {
         tulosDiv.innerHTML = "Syötä jokin sana!";

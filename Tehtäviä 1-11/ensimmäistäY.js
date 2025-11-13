@@ -5,5 +5,5 @@ function laske() {
         summa += i;
     }
 
-    document.getElementById("tulos").innerHTML = "Summa on: " + summa;
+    document.getElementById("tulos7").innerHTML = "Summa on: " + summa;
 }

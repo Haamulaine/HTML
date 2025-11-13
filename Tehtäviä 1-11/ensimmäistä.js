@@ -1,5 +1,5 @@
 function kymmenen() {
-    const tuloste = document.getElementById("tulos");
+    const tuloste = document.getElementById("tulos6");
 
     for (i = 1; i <= 10; i++) {
         tuloste.innerHTML += i + "<br>";

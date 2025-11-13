@@ -1,6 +1,6 @@
 function tarkistaO() {
     const sana = document.getElementById("sanaO").value.trim();
-    const tulosDiv = document.getElementById("tulos");
+    const tulosDiv = document.getElementById("tulos3");
 
     if (sana === "") {
         tulosDiv.innerHTML = "Syötä jokin sana!";

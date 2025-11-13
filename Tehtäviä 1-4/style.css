@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 20px;
+}
+
+.task-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    grid-template-areas: "t1 t2 t3"
+                          ". . t4"
+}
+.Oranssi { grid-area: t1; background-color: orange; }
+.Vaaleanpunainen { grid-area: t2; background-color: pink; }
+.Pinkki { grid-area: t3; background-color: pink; }
+.Keltainen { grid-area: t4; background-color: yellow; }
+
+.box {
+    padding: 20px;
+    border: solid;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    width: ;
+}

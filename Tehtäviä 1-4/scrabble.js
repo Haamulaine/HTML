@@ -15,7 +15,7 @@ function tarkastaPisteet() {
         summa += pisteet[kirjain] || 12;
     }
 
-    const tulos = document.getElementById("tulos");
+    const tulos = document.getElementById("tulos1");
     if (sana.length === 0) {
         tulos.textContent = "Syötä luku ensin.";
     } else {
